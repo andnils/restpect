@@ -1,7 +1,8 @@
 (ns restpect.core
   "Assertion functions for HTTP responses."
   (:require [clojure.test :refer [do-report]]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.main]))
 
 (defn- pretty-fname [f]
   (-> (str f)
